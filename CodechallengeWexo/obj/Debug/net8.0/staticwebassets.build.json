@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "OtIPfhja4q50wjP3k24hPyjN+g4n88FaOGnKWEdSvMY=",
+  "Source": "CodechallengeWexo",
+  "BasePath": "_content/CodechallengeWexo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CodechallengeWexo\\wwwroot",
+      "Source": "CodechallengeWexo",
+      "ContentRoot": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\",
+      "BasePath": "_content/CodechallengeWexo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\css\\style.css",
+      "SourceId": "CodechallengeWexo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\",
+      "BasePath": "_content/CodechallengeWexo",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\html\\Index.html",
+      "SourceId": "CodechallengeWexo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\",
+      "BasePath": "_content/CodechallengeWexo",
+      "RelativePath": "html/Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\js\\app.js",
+      "SourceId": "CodechallengeWexo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\",
+      "BasePath": "_content/CodechallengeWexo",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
+    }
+  ]
+}

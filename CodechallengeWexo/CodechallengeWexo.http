@@ -1,0 +1,6 @@
+@CodechallengeWexo_HostAddress = http://localhost:5089
+
+GET {{CodechallengeWexo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\datafetchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\datafetchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\callapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\callapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\models\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\models\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|c:\\users\\rasmu\\source\\repos\\codechallengewexo\\codechallengewexo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{067CDA05-7888-4545-8447-A0D198BED7C4}|CodechallengeWexo\\CodechallengeWexo.csproj|solutionrelative:codechallengewexo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "CodechallengeWexo\\wwwroot\\js\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-05T12:43:02.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "CodechallengeWexo\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:49:15.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\appsettings.Development.json",
+              "RelativeToolTip": "CodechallengeWexo\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T18:03:38.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CodechallengeWexo\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-05T14:01:05.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\ApiDbContext.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\ApiDbContext.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\ApiDbContext.cs",
+              "RelativeToolTip": "CodechallengeWexo\\ApiDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:46:13.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Program.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\Program.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Program.cs",
+              "RelativeToolTip": "CodechallengeWexo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:44:06.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Series.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Models\\Series.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\Models\\Series.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Models\\Series.cs",
+              "RelativeToolTip": "CodechallengeWexo\\Models\\Series.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:49:28.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\Models\\Movie.cs",
+              "RelativeToolTip": "CodechallengeWexo\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T10:49:13.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\html\\Index.html",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\wwwroot\\html\\Index.html",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\html\\Index.html",
+              "RelativeToolTip": "CodechallengeWexo\\wwwroot\\html\\Index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-05T12:42:38.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CallApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\CallApiService.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\CallApiService.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\CallApiService.cs",
+              "RelativeToolTip": "CodechallengeWexo\\CallApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:25:43.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataFetchingService.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\DataFetchingService.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\DataFetchingService.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\DataFetchingService.cs",
+              "RelativeToolTip": "CodechallengeWexo\\DataFetchingService.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:20:43.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "CodechallengeWexo\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-05T12:42:50.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\appsettings.json",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\appsettings.json",
+              "RelativeToolTip": "CodechallengeWexo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-06T11:45:27.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "CodechallengeWexo\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Rasmu\\source\\repos\\CodechallengeWexo\\CodechallengeWexo\\WeatherForecast.cs",
+              "RelativeToolTip": "CodechallengeWexo\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T14:27:27.77Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

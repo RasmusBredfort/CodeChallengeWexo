@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "CodechallengeWexo.Controllers.ApiController",
+    "Method": "GetAllMoviesFromDb",
+    "RelativePath": "api/Api/movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodechallengeWexo.Controllers.ApiController",
+    "Method": "GetAllSeriesFromDb",
+    "RelativePath": "api/Api/series",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
