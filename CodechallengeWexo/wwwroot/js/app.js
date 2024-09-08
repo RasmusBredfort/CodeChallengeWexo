@@ -1,6 +1,8 @@
 ﻿window.onload = function () {
     fetchMovies();
 };
+
+//Fetches movies from Database
 async function fetchMovies() {
     try {
         // Make an API call to backend to fetch the movies
@@ -16,9 +18,26 @@ async function fetchMovies() {
 
         console.log(movies);
 
+        const groupedMovies = groupMoviesByGenre(movies);
+
+        console.log(groupedMovies);
+
     } catch (error) {
         // Log any errors that occur during the fetch
         console.error('Error fetching movies:', error);
     }
 }
+
+function groupMoviesByGenre(movies) {
+    return movies.reduce((acc, movie) => {
+        if (!acc[movie.genre]) {
+            acc[movie.genre] = []; //Adds Genre with empty array
+        }
+        acc[movie.genre].push(movie);
+        return acc;
+    }, {});
+}
+
+
+
 
