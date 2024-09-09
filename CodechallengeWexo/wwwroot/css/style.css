@@ -1,2 +1,98 @@
 ﻿body {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Spreads elements to the left and right */
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+/* Left side styling */
+.navbar-left {
+    display: flex; 
+    gap: 20px;
+}
+
+/* Right side styling */
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+/* Link styles */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+    .navbar a:hover {
+        background-color: #555;
+        border-radius: 5px;
+    }
+
+/* Style for genre title */
+.genre-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for the movie row */
+.movie-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if items don't fit in one row */
+    gap: 20px; /* Adds space between movie items */
+    margin-bottom: 30px;
+    justify-content: flex-start;
+}
+
+/* Style for each movie item (movie card) */
+.movie-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden; /* Prevents content from overflowing */
+}
+
+    .movie-item:hover {
+        transform: translateY(-10px); /* Slight lift effect on hover */
+    }
+
+    /* Style for the movie thumbnail */
+    .movie-item img {
+        width: 100%;
+        height: 250px;
+        object-fit: fill;
+        flex-grow: 1;
+        border-radius: 8px; /* Rounded corners for the image */
+        margin-bottom: auto;
+    }
+
+    /* Style for the movie title */
+    .movie-item h3 {
+        font-size: 13px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+/* Adjusting the look of the entire container */
+#moviesContainer {
+    margin: 20px;
+    max-width: 1200px; /* Limit the width of the container */
+    padding: 20px;
+}
+
