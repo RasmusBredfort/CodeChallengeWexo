@@ -7,7 +7,7 @@ window.onload = function () {
 async function fetchMovies() {
     try {
         // Make an API call to backend to fetch the movies
-        const response = await fetch('http://localhost:5089/api/api/movies');
+        const response = await fetch('https://localhost:7118/api/api/movies');
 
         if (!response.ok) {
             console.log("Der skete en fejl");
