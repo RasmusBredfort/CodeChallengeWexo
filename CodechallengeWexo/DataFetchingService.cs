@@ -19,16 +19,22 @@ namespace CodechallengeWexo
 
         public async Task FetchAndSaveMovies()
         {
+            //The API URL to fetch movies from
             string moviesApiUrl = "https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&lang=da&byProgramType=movie";
+            
+            //Makes the HTTP GET request to the API
             var response = await _httpClient.GetAsync(moviesApiUrl);
 
             if (response.IsSuccessStatusCode)
             {
                 var jsonData = await response.Content.ReadAsStringAsync();
+                
+                //Extracts the list of movies from the JSON
                 var movieList = ExtractMovies(jsonData);
 
                 foreach (var movie in movieList)
                 {
+                    //Checks if a movie with the same title already exists
                     var existingMovie = _dbContext.Movies.FirstOrDefault(m => m.Title == movie.Title);
                     if (existingMovie == null)
                     {
@@ -42,17 +48,22 @@ namespace CodechallengeWexo
 
         public async Task FetchAndSaveSeries()
         {
+            //The API URL to fetch series from
             string seriesApiUrl = "https://feed.entertainment.tv.theplatform.eu/f/jGxigC/bb-all-pas?form=json&lang=da&byProgramType=series";
 
+            //Makes the HTTP GET request to the API
             var response = await _httpClient.GetAsync(seriesApiUrl);
 
             if (response.IsSuccessStatusCode)
             {
                 var jsonData = await response.Content.ReadAsStringAsync();
+
+                //Extracts the list of series from the JSON
                 var seriesList = ExtractSeries(jsonData);
 
                 foreach (var series in seriesList)
                 {
+                    //Checks if a movie with the same title already exists
                     var existingSeries = _dbContext.Series.FirstOrDefault(s => s.Title == series.Title);
                     if (existingSeries == null)
                     {
@@ -65,9 +76,11 @@ namespace CodechallengeWexo
         }
         private IEnumerable<Movie> ExtractMovies(string jsonData)
         {
+            //Stores extracted movies in a list
             var movies = new List<Movie>();
             var document = JsonDocument.Parse(jsonData);
 
+            //Loops through each entry in the "entries" array of the JSON document
             foreach (var item in document.RootElement.GetProperty("entries").EnumerateArray())
             {
                 var guid = item.GetProperty("guid").GetString();
@@ -77,6 +90,7 @@ namespace CodechallengeWexo
                 var genre = "Unknown"; // Default value for genre
                 if (item.TryGetProperty("plprogram$tags", out var tagsArray))
                 {
+                    //Loop through the tags to find the "genre" scheme
                     foreach (var tag in tagsArray.EnumerateArray())
                     {
                         var scheme = tag.GetProperty("plprogram$scheme").GetString();
@@ -89,7 +103,6 @@ namespace CodechallengeWexo
                 }
 
                 string thumbnailUrl = null;  // Default value for thumbnail URL
-
               
                 if (item.TryGetProperty("plprogram$thumbnails", out var thumbnails))
                 {
@@ -99,6 +112,8 @@ namespace CodechallengeWexo
                         if (thumbnail.Value.TryGetProperty("plprogram$assetTypes", out var assetTypesArray))
                         {
                             bool isImageType = false;
+
+                            // Loop through asset types to find the "Image" type
                             foreach (var assetType in assetTypesArray.EnumerateArray())
                             {
                                 if (assetType.GetString() == "Image")
@@ -108,17 +123,17 @@ namespace CodechallengeWexo
                                 }
                             }
 
-                            // If it's an image type, extract the thumbnail URL
+                            // If its an image type, extract the thumbnail URL
                             if (isImageType && thumbnail.Value.TryGetProperty("plprogram$url", out var urlProperty))
                             {
-                                thumbnailUrl = urlProperty.GetString();  // Get the URL
-                                break;  // Exit loop after finding the first valid image thumbnail
+                                thumbnailUrl = urlProperty.GetString();
+                                break;
                             }
                         }
                     }
                 }
 
-
+                //Add the extracted movie details to the movies list
                 movies.Add(new Movie
                 {
                     Guid = guid,
@@ -157,6 +172,7 @@ namespace CodechallengeWexo
                     }
                 }
 
+                //Adds the series to the list
                 seriesList.Add(new Series
                 {
                     Guid = guid,

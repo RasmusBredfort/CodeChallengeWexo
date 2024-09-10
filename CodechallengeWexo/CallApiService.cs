@@ -9,6 +9,7 @@
             _scopeFactory = scopeFactory;
         }
 
+        //This function is called when the application starts and calls the dataFetchingService
         public async Task StartAsync(CancellationToken cancellationToken)
         {
             using (var scope = _scopeFactory.CreateScope())
@@ -21,6 +22,7 @@
             }
         }
 
+        //Returns a completed task when the application ends
         public Task StopAsync(CancellationToken cancellationToken)
         {
             return Task.CompletedTask;
