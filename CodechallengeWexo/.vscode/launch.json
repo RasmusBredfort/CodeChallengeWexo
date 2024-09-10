@@ -6,14 +6,13 @@
         "type": "coreclr",
         "request": "launch",
         "preLaunchTask": "build",
-        "program": "${workspaceFolder}/bin/Debug/net8.0/CodechallengeWexo.dll",  // Adjust the path to your DLL
-        "args": [],
+        "program": "${workspaceFolder}/bin/Debug/net8.0/CodechallengeWexo.dll",
         "cwd": "${workspaceFolder}",
         "stopAtEntry": false,
-        "serverReadyAction": {
-          "action": "openExternally",
-          "pattern": "\\bNow listening on:\\s+(https://\\S+)"  // Look for HTTPS here
-        },
+        //"serverReadyAction": {
+        //  "action": "openExternally",
+        // "pattern": "\\bNow listening on:\\s+(https://\\S+)"  // Look for HTTPS here
+        //},
         "launchBrowser": {
           "enabled": true,
           "args": "https://localhost:7118/html/Index.html",  // HTTPS URL
